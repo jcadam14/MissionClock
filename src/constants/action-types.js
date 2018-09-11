@@ -1,3 +1,4 @@
+//MissionClock file
 export const ADD_CUSTOM_TIMER = 'ADD_CUSTOM_TIMER';
 export const REMOVE_CUSTOM_TIMER = 'REMOVE_CUSTOM_TIMER';
 export const UPDATE_CONTACTS = 'UPDATE_CONTACTS';
