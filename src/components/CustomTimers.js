@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import CustomTimerRow from './CustomTimerRow';
 import AddRow from './AddRow';
-import Toggle from 'react-toggle';
-import TimerCarousel from './TimerCarousel';
 
 const mapStateToProps = state => {
     return {customTimers:state.clock.customTimers,

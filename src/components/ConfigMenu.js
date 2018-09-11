@@ -11,7 +11,6 @@ import DateTime from 'react-datetime';
 import moment from 'moment-timezone';
 import TimezonePicker from 'react-timezone';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Tooltip} from 'reactstrap';
-import { FETCH_LATEST_SCHEDULE } from '../constants/action-types';
 
 const getTimezones = () =>
 {

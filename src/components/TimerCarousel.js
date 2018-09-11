@@ -1,5 +1,5 @@
+//MissionClock file
 import React, {Component} from 'react';
-import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 class TimerCarousel extends Component
 {

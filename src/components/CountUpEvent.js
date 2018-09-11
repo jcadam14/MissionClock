@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {Button, Label, Row, Col, Card, CardBody,CardText, CardTitle, Input} from 'reactstrap';
-import {Collapse} from 'react-collapse';
-import Toggle from 'react-toggle';
-import DateTime from 'react-datetime';
-import { types } from 'util';
 import Clock from 'react-live-clock';
 
 const mapStateToProps = state => {

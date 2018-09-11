@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import Clock from 'react-live-clock';
 import moment from 'moment-timezone';
 import '../Contacts.css';
-import {Badge} from 'reactstrap';
 
 
 const mapStateToProps = state => {

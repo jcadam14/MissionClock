@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import ElapsedCountdown from './ElapsedCountdown';
 import {connect} from 'react-redux';
-import {updateNextStyle} from '../actions';
-import {updateContacts} from '../actions';
-import { NEXT_WARN_STYLE, NEXT_STYLE } from '../Constants';
 import {Badge, Row, Col, Card, CardBody} from 'reactstrap';
 
 const mapStateToProps = state => {
