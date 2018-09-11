@@ -1,7 +1,4 @@
 import * as constants from "../constants/action-types";
-import CustomTimerRow from '../components/CustomTimerRow';
-import React, { Component } from 'react';
-import { fetchLatestSchedule } from "../actions";
 
 const initialState = {
     mode:null,
