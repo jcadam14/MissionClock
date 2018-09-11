@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import {connect} from 'react-redux';
 import CurrentTimer from './components/CurrentTimer';
-import { Progress } from 'reactstrap';
 import { Card, Row, Col, CardBody, CardFooter, Label} from 'reactstrap';
 import Clock from 'react-live-clock';
 
