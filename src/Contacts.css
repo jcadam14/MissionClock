@@ -1,0 +1,68 @@
+.next-style {
+    background-color: rgb(72, 94, 112);
+    position: 'fixed';
+    width: '30px';
+    height: '30px';
+    right: '72px';
+    top: '72px'
+  }
+
+  .next-warn-style {
+    background-color: rgb(238, 25, 25);
+    position: 'fixed';
+    width: '360px';
+    height: '300px';
+    right: '72px';
+    top: '72px'
+  }
+
+  .current-style{
+    background-color: rgb(71, 25, 238);
+    position: 'fixed';
+    width: '360px';
+    height: '300px';
+    left: '72px';
+    top: '72px'
+  }
+
+  .current-warn-style{
+    background-color: rgb(233, 236, 12);
+    position: 'fixed';
+    width: '360px';
+    height: '300px';
+    left: '72px';
+    top: '72px'
+  }
+
+  .current-done-style{
+    background-color: rgb(212, 208, 230);
+    position: 'fixed';
+    width: '360px';
+    height: '300px';
+    left: '72px';
+    top: '72px'
+  }
+
+  .timerPanel {
+    background: linear-gradient(black, blue);
+    box-shadow: 10px 10px 5px black;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+  }
+
+  .contactPanel {
+    background: linear-gradient(black, blue);
+    box-shadow: 10px 10px 5px black;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    height: 2em;
+    display: flex;
+    text-align: center;
+  }
